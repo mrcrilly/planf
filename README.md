@@ -12,7 +12,7 @@ I've also got some Highcharts in there to visualise some of the data, making it 
 ![Plan F Waterfall](https://raw.githubusercontent.com/mrcrilly/planf/master/02.PNG)
 
 ## Savings
-The system can calculate growth of a savings account base dont he interest rate, but I have not yet implemented compounding interest with regular installments. This means the graph here is a bit "flat" and dull, but it still offers some insight... I guess?
+The system can calculate growth of a savings account based on the interest rate, but I have not yet implemented compounding interest with regular installments. This means the graph here is a bit "flat" and dull, but it still offers some insight... I guess?
 
 ![Savings Compound Interest](https://raw.githubusercontent.com/mrcrilly/planf/master/03.PNG)
 
@@ -24,7 +24,7 @@ You can also see the tabular version of the savings section above this too.
 ![Goals](https://raw.githubusercontent.com/mrcrilly/planf/master/05.PNG)
 
 ## Statement
-Finally I also have a feature that lets me import my statementy and it calculates it for me, putting everything into catergories and totalling up the money spent on each category. For example, multiple trips to the local cafe will total up the sum of all trips and make it nice and disgestable here. 
+Finally I also have a feature that lets me import my bank statement and it calculates it for me, putting everything into catergories and totalling up the money spent on each category. For example, multiple trips to the local cafe will total up the sum of all trips and make it nice and disgestable here. 
 
 Pie cahrt coming soon.
 
