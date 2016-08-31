@@ -26,7 +26,7 @@ You can also see the tabular version of the savings section above this too.
 ## Statement
 Finally I also have a feature that lets me import my bank statement and it calculates it for me, putting everything into catergories and totalling up the money spent on each category. For example, multiple trips to the local cafe will total up the sum of all trips and make it nice and disgestable here. 
 
-Pie cahrt coming soon.
+Pie chart coming soon.
 
 ![Statement](https://raw.githubusercontent.com/mrcrilly/planf/master/04.PNG)
 
