@@ -1,0 +1,64 @@
+{
+  "fields": {
+    "incomes": {
+      "type": "table",
+      "actionbar": {
+        "actions": [
+          {
+            "action": "up",
+            "enabled": false
+          },
+          {
+            "action": "down",
+            "enabled": false
+          }
+        ]
+      }
+    },
+    "savings": {
+      "type": "table",
+      "actionbar": {
+        "actions": [
+          {
+            "action": "up",
+            "enabled": false
+          },
+          {
+            "action": "down",
+            "enabled": false
+          }
+        ]
+      }
+    },
+    "debts": {
+      "type": "table",
+      "actionbar": {
+        "actions": [
+          {
+            "action": "up",
+            "enabled": false
+          },
+          {
+            "action": "down",
+            "enabled": false
+          }
+        ]
+      }
+    },
+    "expenses": {
+      "type": "table",
+      "actionbar": {
+        "actions": [
+          {
+            "action": "up",
+            "enabled": false
+          },
+          {
+            "action": "down",
+            "enabled": false
+          }
+        ]
+      }
+    }
+  }
+}

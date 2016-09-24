@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Budget</title>
+  <!-- <link type="text/css" rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" /> -->
+  <link rel="stylesheet" type="text/css" href="https://bootswatch.com/yeti/bootstrap.min.css">
+  <link type="text/css" href="https://code.cloudcms.com/alpaca/1.5.18/bootstrap/alpaca.min.css" rel="stylesheet" />
+
+  <style type="text/css">
+    .alpaca-field-array {
+      border: 0px !important;
+    }
+  </style>
+  
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.0/handlebars.js"></script>
+  <script type="text/javascript" src="https://code.cloudcms.com/alpaca/1.5.18/bootstrap/alpaca.min.js"></script>
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <h1>Plan: F</h1>
+      <p>An explanation will come here soon.</p>
+    </div>
+  </div>
+  <div id="form"></div>
+</div>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $("#form").alpaca({
+      "optionsSource": "/data/options.json",
+      "schema": "/data/schema.json",
+      "viewSource": "/data/view.json"
+    });
+  });
+</script>
+</body>
+</html>

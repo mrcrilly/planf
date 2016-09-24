@@ -1,0 +1,12 @@
+{
+  "parent": "bootstrap-create",
+  "layout": {
+    "template": "/static/templates/form.html",
+    "bindings": {
+      "incomes": "incomes-form",
+      "savings": "savings-form",
+      "debts": "debts-form",
+      "expenses": "expenses-form"
+    }
+  }
+}

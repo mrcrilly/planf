@@ -1,0 +1,74 @@
+{
+  "type": "object",
+  "properties": {
+    "incomes": {
+      "type": "array",
+      "options": {
+        "toolbarStyle": "bottom"
+      },
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "title": "Description",
+            "minLength": 4,
+            "maxLength": 50
+          },
+          "amount": {
+            "type": "number",
+            "title": "Amount"
+          }
+        }
+      }
+    },
+    "savings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "title": "Description"
+          },
+          "amount": {
+            "type": "string",
+            "title": "Amount"
+          }
+        }
+      }
+    },
+    "debts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "title": "Description"
+          },
+          "amount": {
+            "type": "string",
+            "title": "Amount"
+          }
+        }
+      }
+    },
+    "expenses": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "title": "Description"
+          },
+          "amount": {
+            "type": "string",
+            "title": "Amount"
+          }
+        }
+      }
+    }
+  }
+}
